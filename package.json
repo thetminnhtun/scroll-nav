@@ -1,0 +1,29 @@
+{
+  "name": "scroll-nav",
+  "version": "1.0.0",
+  "description": "Dynamicaly change active nav link whenever scroll",
+  "directories": {
+    "test": "test"
+  },
+  "source": "src/index.js",
+  "main": "dist/scrollnav.js",
+  "module": "dist/scrollnav.module.js",
+  "unpkg": "dist/scrollnav.umd.js",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir build --open",
+    "build": "microbundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/thetminnhtun/scroll-nav"
+  },
+  "keywords": [
+    "scrollnav"
+  ],
+  "author": "Thet Minn Htun",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.12.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
